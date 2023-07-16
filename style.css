@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@500;700&family=Montserrat:wght@700&display=swap');
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+body{
+    font: normal 14px arial;
+    background-color: hsl(30, 38%, 92%);
+    margin: 0px;
+}
+img{
+    height: 420px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+section{
+    display: flex;
+    width: 550px;
+    margin: auto;
+    align-items: center;
+    margin-top: 80px;
+    background-color: white;
+    border-radius: 15px;
+}
+section span#pre {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    display: block;
+    margin: 0px 20px;
+    letter-spacing: 5px;
+    opacity: 0.5;
+    padding-bottom: 10px;
+
+}
+section h1 {
+    font-family: 'Fraunces', sans-serif;
+    font-size: 35px;
+    margin: 0px 20px;
+}
+section p#des{
+    margin: 0px 20px;
+    opacity: 0.5;
+}
+section p#preco {
+    margin: 25px 20px;
+    font-family: 'Fraunces', sans-serif;
+    font-size: 25px;
+    color: rgba(51, 124, 97, 1);
+    font-weight: 700;
+}
+section p span{
+    font: normal 9pt Arial;
+    color: black;
+    opacity: 0.5;
+    align-items: center;
+    padding: 28px;
+    display: block;
+    float: right;
+    margin-top: -16px;
+}
+section a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px;
+    background-color: rgba(61, 129, 104, 1);
+    color: aliceblue;
+    margin: 0px 25px;
+    border-radius: 13px;
+}
+section img#icone {
+    width: 15px;
+    height: 15px;
+}
+section a:hover{
+    background-color: rgba(26, 64, 49, 1);
+    transition: 1s;
+}
+
+@media (max-width: 376px){
+    section {
+        display: block;
+        margin: 20px;
+        float: left;
+        max-width: 300px;
+    }
+    div {
+        display: block;
+    }
+    img{
+        background-position: center;
+        background-size: cover;
+        width: 300px;
+        height: 200px;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 15px;
+        margin: 0px;
+        
+    }
+    section h1 {
+        text-align:left;
+        
+        font-size: 25px;
+        padding-bottom: 20px;
+    }
+    section a{
+        margin-bottom: 20px;
+    }
+}
